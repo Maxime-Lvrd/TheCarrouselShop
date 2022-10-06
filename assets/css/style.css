@@ -14,9 +14,12 @@ img {
     width: 100%;
 }
 .category {
-    background-color: #ebe1e4;
-    color: black;
-    text-shadow: 1px 1px 0 white;
+    background-image: url(../img/lcs-1.jpg.lnk);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
 }
 footer, footer a {
     background-color: rgb(241, 241, 241);
