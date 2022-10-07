@@ -25,20 +25,19 @@ h1 {
     box-shadow: none;
     border: none;
 }
+.navbar-toggler {
+    border-radius: 0;
+    border: none;
+}
+.dropdown-menu {
+    border-radius: 0;
+}
 a {
     color: black;
     text-decoration: none;
 }
 img {
     width: 100%;
-}
-.category {
-    background-image: url(../img/lcs-1.jpg);
-    background-position: center;
-    background-size: cover;
-    color: white;
-    font-weight: bold;
-    text-shadow: 1px 1px 5px black;
 }
 footer, footer a {
     background-color: #f8f9fa;
@@ -59,6 +58,21 @@ footer div div a, footer p {
     .nav-pc {
         display: block;
     }
+    .img-mobile {
+        display: none;
+    }
+    .img-pc {
+        display: block;
+        height: 700px;
+    }
+    .category {
+        background-image: url(../img/footer.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        font-weight: bold;
+        text-shadow: 1px 1px 5px black;
+    }
 }
 @media screen and (max-width: 576px) {
     .nav-mobile {
@@ -66,5 +80,19 @@ footer div div a, footer p {
     }
     .nav-pc {
         display: none;
+    }
+    .img-mobile {
+        display: block;
+    }
+    .img-pc {
+        display: none;
+    }
+    .category {
+        background-image: url(../img/lcs-1.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        font-weight: bold;
+        text-shadow: 1px 1px 5px black;
     }
 }
