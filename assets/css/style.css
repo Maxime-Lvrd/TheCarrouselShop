@@ -93,7 +93,7 @@ footer div div a, footer p {
     .collection-img {
         height: 370px;
     }
-    .collection-title, .collection-description {
+    .collection-title {
         font-size: 20px;
     }
 }
@@ -119,8 +119,5 @@ footer div div a, footer p {
         color: white;
         font-weight: bold;
         text-shadow: 1px 1px 5px black;
-    }
-    .collection-title {
-        font-size: 13px;
     }
 }
