@@ -120,4 +120,7 @@ footer div div a, footer p {
         font-weight: bold;
         text-shadow: 1px 1px 5px black;
     }
+    h2 {
+        font-size: 25px;
+    }
 }
