@@ -9,6 +9,11 @@ h1 {
     font-size: 30px;
     margin: 5px;
 }
+h2 {
+    font-size: 30px;
+    border-top: 1px solid #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;
+}
 .navbar-brand {
     font-family: 'Festive', cursive;
     font-size: 25px;
@@ -39,6 +44,17 @@ a {
 img {
     width: 100%;
 }
+
+/* collection */
+.collection-img {
+    height: 186px;
+    box-shadow: 0 1px 1px 0 black;
+}
+.collection-title {
+    font-weight: bold;
+}
+
+/* footer */
 footer, footer a {
     background-color: #f8f9fa;
     color: rgb(55, 55, 55);
@@ -51,6 +67,7 @@ footer div div a, footer p {
     margin: 0;
 }
 
+/* media queries pc */
 @media screen and (min-width: 576px) {
     .nav-mobile {
         display: none;
@@ -73,7 +90,15 @@ footer div div a, footer p {
         font-weight: bold;
         text-shadow: 1px 1px 5px black;
     }
+    .collection-img {
+        height: 370px;
+    }
+    .collection-title, .collection-description {
+        font-size: 20px;
+    }
 }
+
+/* media queries mobile*/
 @media screen and (max-width: 576px) {
     .nav-mobile {
         display: block;
@@ -94,5 +119,8 @@ footer div div a, footer p {
         color: white;
         font-weight: bold;
         text-shadow: 1px 1px 5px black;
+    }
+    .collection-title {
+        font-size: 13px;
     }
 }
