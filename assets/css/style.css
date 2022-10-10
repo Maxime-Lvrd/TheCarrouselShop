@@ -4,10 +4,12 @@ body, html {
     height: 100%;
     font-family: 'Saira Condensed', sans-serif;
 }
+.container-fluid {
+    height: auto;
+}
 h1 {
     font-family: 'Titan One', cursive;
     font-size: 30px;
-    margin: 5px;
     text-align: center;
 }
 h2 {
