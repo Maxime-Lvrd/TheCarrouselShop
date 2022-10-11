@@ -17,6 +17,11 @@ h2 {
     border-top: 1px solid #b8b8b8;
     border-bottom: 1px solid #b8b8b8;
 }
+/* nav */
+.navbar {
+    width: 100%;
+    padding: 0;
+}
 .navbar-brand {
     font-family: 'Festive', cursive;
     font-size: 25px;
@@ -46,6 +51,24 @@ a {
 }
 img {
     width: 100%;
+}
+.btn-like {
+    border: none;
+}
+.dropdown-menu-end {
+    width: 16rem;
+}
+.btn-add, .btn-trash {
+    border: none;
+    background-color: white;
+}
+
+/* like */
+.shopping-like {
+    color: rgb(62, 93, 62);
+}
+.fa-trash {
+    color: rgb(90, 0, 0);
 }
 
 /* formulaire login */
