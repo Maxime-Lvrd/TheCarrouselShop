@@ -58,6 +58,7 @@ a {
 }
 img {
     width: 100%;
+    height: auto;
 }
 .btn-like {
     border: none;
@@ -76,6 +77,33 @@ img {
 }
 .fa-trash {
     color: #5a0000;
+}
+.dropdown-titles {
+    background-color: rgb(224, 224, 224);
+}
+.dropdown-titles p {
+    font-weight: bold;
+}
+
+/* shopping */
+.btn-shopping, .btn-pay {
+    border: 1px solid grey;
+    width: 90%;
+    font-weight: bold;
+}
+.btn-shopping {
+    background-color: white;
+}
+.btn-pay {
+    background-color: #3e5d3e;
+    color: white;
+}
+.fa-minus, .fa-plus {
+    font-size: 10px;
+}
+.img-shopping {
+    width: 75px;
+    height: 75px;
 }
 
 /* formulaire login */
