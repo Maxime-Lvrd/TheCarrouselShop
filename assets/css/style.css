@@ -27,6 +27,7 @@ h2 {
 /* nav */
 .navbar {
     width: 100%;
+    min-height: 50px;
     padding: 0;
 }
 .navbar-brand {
@@ -64,7 +65,8 @@ img {
     border: none;
 }
 .dropdown-menu-end {
-    width: 16rem;
+    width: 17rem;
+    top: 150% !important;
 }
 .btn-add, .btn-trash {
     border: none;
@@ -88,11 +90,12 @@ img {
 /* shopping */
 .btn-shopping, .btn-pay {
     border: 1px solid grey;
-    width: 90%;
+    width: 100%;
     font-weight: bold;
 }
 .btn-shopping {
     background-color: white;
+    color: black;
 }
 .btn-pay {
     background-color: #3e5d3e;
