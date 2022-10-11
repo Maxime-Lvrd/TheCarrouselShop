@@ -16,85 +16,129 @@
 </head>
 
 <body>
-  <!-- nav mobile -->
-  <nav class="navbar nav-mobile navbar-expand-sm bg-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Le Carrousel Shop</a>
-            <!-- dropdown wishlist -->
-            <div class="btn-group">
-              <button type="button" class="btn btn-like p-0" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-regular fa-heart"></i>
-              </button>
-              <ul class="dropdown-menu dropdown-menu-end p-0 mt-2">
-                <li><p class="dropdown-item m-0 p-0 text-center">Articles sauvegardés</p></li>
-                <li><hr class="dropdown-divider m-0"></li>
-                <li class="dropdown-item p-2">
-                  <div class="row p-0">
-                    <div class="col-5 py-1 pl-1 pr-3 m-0">
-                      <a href="">
-                        <img src="assets/img/i-cruella.jpg" alt="">
-                      </a>
-                    </div>
-                    <div class="col-7 p-0 m-0">
-                      <div class="row">
-                        <a href="" class="p-0">Illustrations Cruella</a>
-                        <p class="m-0 p-0">4.50€</p>
-                        <div class="row justify-content-end p-0">
-                          <button class="btn-add col-3 p-0">
-                            <i class="fa-solid fa-basket-shopping shopping-like"></i>
-                          </button>
-                          <button class="btn-trash col-3 p-0">
-                            <i class="fa-solid fa-trash"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="dropdown-item p-2">
-                  <div class="row p-0">
-                    <div class="col-5 py-1 pl-1 pr-3 m-0">
-                      <a href="">
-                        <img src="assets/img/mp-cruella.jpg" alt="">
-                      </a>
-                    </div>
-                    <div class="col-7 p-0 m-0">
-                      <div class="row">
-                        <a href="" class="p-0">Marque-page Cruella</a>
-                        <p class="m-0 p-0">3€</p>
-                        <div class="row justify-content-end p-0">
-                          <button class="btn-add col-3 p-0">
-                            <i class="fa-solid fa-basket-shopping shopping-like"></i>
-                          </button>
-                          <button class="btn-trash col-3 p-0">
-                            <i class="fa-solid fa-trash"></i>
-                          </button>
-                        </div>
-                      </div>
+  <div class="container-fluid">
+    <!-- nav mobile -->
+    <nav class="navbar nav-mobile navbar-expand-sm bg-light px-2">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Le Carrousel Shop</a>
+        <!-- dropdown wishlist -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-like p-0" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end p-0 mt-2">
+            <li>
+              <p class="dropdown-item m-0 p-0 text-center">Articles sauvegardés</p>
+            </li>
+            <li>
+              <hr class="dropdown-divider m-0">
+            </li>
+            <li class="dropdown-item p-2">
+              <div class="row p-0">
+                <div class="col-5 py-1 pl-1 pr-3 m-0">
+                  <a href="">
+                    <img src="assets/img/i-cruella.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-7 p-0 m-0">
+                  <div class="row">
+                    <a href="" class="p-0">Illustrations Cruella</a>
+                    <p class="m-0 p-0">4.50€</p>
+                    <div class="row justify-content-end p-0">
+                      <button class="btn-add col-3 p-0">
+                        <i class="fa-solid fa-basket-shopping shopping-like"></i>
+                      </button>
+                      <button class="btn-trash col-3 p-0">
+                        <i class="fa-solid fa-trash"></i>
+                      </button>
                     </div>
                   </div>
-                </li>
+                </div>
+              </div>
+            </li>
+            <li class="dropdown-item p-2">
+              <div class="row p-0">
+                <div class="col-5 py-1 pl-1 pr-3 m-0">
+                  <a href="">
+                    <img src="assets/img/mp-cruella.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-7 p-0 m-0">
+                  <div class="row">
+                    <a href="" class="p-0">Marque-page Cruella</a>
+                    <p class="m-0 p-0">3€</p>
+                    <div class="row justify-content-end p-0">
+                      <button class="btn-add col-3 p-0">
+                        <i class="fa-solid fa-basket-shopping shopping-like"></i>
+                      </button>
+                      <button class="btn-trash col-3 p-0">
+                        <i class="fa-solid fa-trash"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <a href=""><i class="fa-solid fa-basket-shopping"></i></a>
+        <a href="login.html"><i class="fa-regular fa-user"></i></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="collections.html">Toutes les collections</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Catégories
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="badges.html">Badges</a></li>
+                <li><a class="dropdown-item" href="illustrations.html">Illustrations</a></li>
+                <li><a class="dropdown-item" href="magnets.html">Magnets</a></li>
+                <li><a class="dropdown-item" href="marque-pages.html">Marque-pages</a></li>
+                <li><a class="dropdown-item" href="pins.html">Pins</a></li>
+                <li><a class="dropdown-item" href="porte-cles.html">Porte clés</a></li>
               </ul>
-            </div>
-      <a href=""><i class="fa-solid fa-basket-shopping"></i></a>
-      <a href="login.html"><i class="fa-regular fa-user"></i></a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="collections.html">Toutes les collections</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Catégories
-            </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav pc -->
+    <nav class="nav-pc container-fluid text-center">
+      <div class="row align-items-center">
+        <div class="col-2 p-0">
+          <div class="row align-items-center">
+            <a href="index.html" class="col-4 p-0"><i class="fa-solid fa-house"></i></a>
+            <a href="https://www.instagram.com/lecarrousel_shop/" target="blank_" class="col-4 p-0"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/LeCarrouselShopBadges/?ref=page_internal" target="blank_"
+              class="col-4 p-0"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="col-2 p-0">
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Magasin
+            </button>
             <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="collections.html">Toutes les collections</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
               <li><a class="dropdown-item" href="badges.html">Badges</a></li>
               <li><a class="dropdown-item" href="illustrations.html">Illustrations</a></li>
               <li><a class="dropdown-item" href="magnets.html">Magnets</a></li>
@@ -102,86 +146,76 @@
               <li><a class="dropdown-item" href="pins.html">Pins</a></li>
               <li><a class="dropdown-item" href="porte-cles.html">Porte clés</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+          </div>
+        </div>
+        <div class="col-4 p-0">
+          <a class="navbar-brand" href="index.html">Le Carrousel Shop</a>
+        </div>
+        <div class="col-4 p-0">
+          <div class="row justify-content-end">
+            <a href="" class="col-2 p-0"><i class="fa-regular fa-heart"></i></a>
+            <a href="" class="col-2 p-0"><i class="fa-solid fa-basket-shopping"></i></a>
+            <a href="login.html" class="col-2 p-0"><i class="fa-regular fa-user"></i></a>
+          </div>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- nav pc -->
-  <nav class="nav-pc container-fluid text-center">
-    <div class="row align-items-center">
-      <div class="col-2 p-0">
-        <div class="row align-items-center">
-          <a href="index.html" class="col-4 p-0"><i class="fa-solid fa-house"></i></a>
-          <a href="https://www.instagram.com/lecarrousel_shop/" target="blank_" class="col-4 p-0"><i
-              class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.facebook.com/LeCarrouselShopBadges/?ref=page_internal" target="blank_"
-            class="col-4 p-0"><i class="fa-brands fa-facebook"></i></a>
+    <div class="main text-center px-3">
+      <div class="row collection g-2 pt-2">
+        <div class="row p-0 justify-content-center">
+          <h2 class="col-12 col-md-7 mt-3">Marque-pages</h2>
         </div>
-      </div>
-      <div class="col-2 p-0">
-        <div class="dropdown">
-          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Magasin
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="collections.html">Toutes les collections</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="badges.html">Badges</a></li>
-            <li><a class="dropdown-item" href="illustrations.html">Illustrations</a></li>
-            <li><a class="dropdown-item" href="magnets.html">Magnets</a></li>
-            <li><a class="dropdown-item" href="marque-pages.html">Marque-pages</a></li>
-            <li><a class="dropdown-item" href="pins.html">Pins</a></li>
-            <li><a class="dropdown-item" href="porte-cles.html">Porte clés</a></li>
-          </ul>
+        <div class="col-6 col-md-4 col-lg-3 mb-2">
+          <img src="assets/img/mp-cruella.jpg" class="collection-img" alt="">
+          <p class="mt-2 collection-title m-0">Marque-page - Cruella</p>
+          <div class="row">
+            <div class="col-6 p-0">
+              <p class="m-0">3€</p>
+            </div>
+            <div class="col-6 p-0">
+              <i class="fa-regular fa-heart add-wishlist py-0 px-2"></i>
+              <i class="fa-solid fa-basket-shopping add-shopping py-0 px-2"></i>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-4 p-0">
-        <a class="navbar-brand" href="index.html">Le Carrousel Shop</a>
-      </div>
-      <div class="col-4 p-0">
-        <div class="row justify-content-end">
-          <a href="" class="col-2 p-0"><i class="fa-regular fa-heart"></i></a>
-          <a href="" class="col-2 p-0"><i class="fa-solid fa-basket-shopping"></i></a>
-          <a href="login.html" class="col-2 p-0"><i class="fa-regular fa-user"></i></a>
+        <div class="col-6 col-md-4 col-lg-3 mb-2">
+          <img src="assets/img/mp-scar.jpg" class="collection-img" alt="">
+          <p class="mt-2 collection-title m-0">Marque-page - Scar</p>
+          <div class="row">
+            <div class="col-6 p-0">
+              <p class="m-0">3€</p>
+            </div>
+            <div class="col-6 p-0">
+              <i class="fa-regular fa-heart add-wishlist py-0 px-2"></i>
+              <i class="fa-solid fa-basket-shopping add-shopping py-0 px-2"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-2">
+          <img src="assets/img/mp-sherkan.jpg" class="collection-img" alt="">
+          <p class="mt-2 collection-title m-0">Marque-page - Sherkan</p>
+          <div class="row">
+            <div class="col-6 p-0">
+              <p class="m-0">3€</p>
+            </div>
+            <div class="col-6 p-0">
+              <i class="fa-regular fa-heart add-wishlist py-0 px-2"></i>
+              <i class="fa-solid fa-basket-shopping add-shopping py-0 px-2"></i>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </nav>
 
-  <div class="container-fluid text-center">
-    <div class="row collection g-2 pt-2">
-      <div class="row p-0 justify-content-center">
-        <h2 class="col-12 col-md-7 mt-3">Marque-pages</h2>
+    <footer class="text-center mt-3 py-2">
+      <p>© 2022 LE CARROUSEL SHOP</p>
+      <div class="row">
+        <div class="col-6"><a href="">Confidentialités et cookies</a></div>
+        <div class="col-6"><a href="">Conditions générales</a></div>
       </div>
-      <div class="col-6 col-md-4 col-lg-3 mb-2">
-        <img src="assets/img/mp-cruella.jpg" class="collection-img" alt="">
-        <p class="mt-2 collection-title m-0">Marque-page - Cruella</p>
-      </div>
-      <div class="col-6 col-md-4 col-lg-3 mb-2">
-        <img src="assets/img/mp-scar.jpg" class="collection-img" alt="">
-        <p class="mt-2 collection-title m-0">Marque-page - Scar</p>
-      </div>
-      <div class="col-6 col-md-4 col-lg-3 mb-2">
-        <img src="assets/img/mp-sherkan.jpg" class="collection-img" alt="">
-        <p class="mt-2 collection-title m-0">Marque-page - Sherkan</p>
-      </div>
-    </div>
+    </footer>
   </div>
-
-  <footer class="text-center mt-3 py-2">
-    <p>© 2022 LE CARROUSEL SHOP</p>
-    <div class="row">
-      <div class="col-6"><a href="">Confidentialités et cookies</a></div>
-      <div class="col-6"><a href="">Conditions générales</a></div>
-    </div>
-  </footer>
 
   <script src="assets/js/script.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Festive&family=Squada+One&display=swap" rel="stylesheet">
